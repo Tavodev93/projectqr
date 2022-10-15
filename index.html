@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media (min-width: 812px){}
+        @media (max-width: 1092px){}
+
+        section {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .codigo_qr {
+            width: 550px;
+            height: 702px;
+            background: white;
+            border-radius: 5%;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+        }
+        .codigo_qr img {
+            width: 450px;
+            height: 400px;
+            border-radius: 5%;
+            position: relative;
+            top: -130px;
+           }
+           .codigo_qr p{
+            font-size: 33px;
+            color: black;
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: 900;
+            text-align: justify;
+            text-align: center;
+           }
+           .codigo_qr h1 {
+            font-size: 23px;
+            color: gray;
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: 200;
+            text-align: center;
+           }
+
+    </style>
+</head>
+<body bgcolor="bababa"> 
+    <section>
+        <div class="codigo_qr">
+            <img src="./image-qr-code.png" alt="codigo_qr">
+            <p>Improve your front-end skills by building projects.</p>            
+            <h1>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</h1>         
+        </div>
+    </section>
+</body>
+</html>
